@@ -20,7 +20,7 @@ def load_library(file)
   final
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yam, emo)
   # code goes here
 end
 
