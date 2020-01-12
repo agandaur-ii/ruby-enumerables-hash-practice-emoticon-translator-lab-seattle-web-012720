@@ -21,7 +21,7 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(yam, emo)
-  # code goes here
+  list = load_library(yam)
 end
 
 def get_english_meaning
