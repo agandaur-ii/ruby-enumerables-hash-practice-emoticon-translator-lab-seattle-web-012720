@@ -32,6 +32,10 @@ end
 
 def get_english_meaning(yam, emo)
   emoticon_hash = load_library(yam)
+  emoticon_hash[:get_meaning].each do |k, v|
+    if k == emo
+      return v
+    end
 end
 
 pp load_library("./lib/emoticons.yml")
