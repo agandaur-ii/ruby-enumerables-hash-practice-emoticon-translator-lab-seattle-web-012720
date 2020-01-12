@@ -21,8 +21,8 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(yam, emo)
-  list = load_library(yam)
-  list[:get_japanese_emoticon].each do |k, v|
+  emoticon_hash = load_library(yam)
+  emoticon_hash[:get_japanese_emoticon].each do |k, v|
     if k == emo
       return v
     end
