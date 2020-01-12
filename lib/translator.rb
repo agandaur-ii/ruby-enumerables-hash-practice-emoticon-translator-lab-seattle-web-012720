@@ -30,8 +30,8 @@ def get_japanese_emoticon(yam, emo)
   return "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(yam, emo)
+  emoticon_hash = load_library(yam)
 end
 
 pp load_library("./lib/emoticons.yml")
