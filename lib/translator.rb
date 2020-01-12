@@ -36,6 +36,8 @@ def get_english_meaning(yam, emo)
     if k == emo
       return v
     end
+  end
+  return "Sorry, that emoticon was not found"
 end
 
 pp load_library("./lib/emoticons.yml")
